@@ -1,14 +1,21 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-}
-
 header {
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
+    position: relative;
+    /* إضافة خاصية الوضع للتحكم في تنسيق الصورة */
+}
+
+/* تنسيق الصورة */
+header img {
+    width: 100px; /* تحديد عرض الصورة */
+    height: 100px; /* تحديد ارتفاع الصورة */
+    border-radius: 50%; /* جعل الصورة بشكل دائري */
+    position: absolute; /* تحديد الصورة كموضع مطلق داخل الهيدر */
+    top: 50%; /* تحديد المسافة من الأعلى */
+    transform: translateY(-50%); /* تحديد التحول لتوسيط الصورة عمودياً */
+    left: 20px; /* تحديد المسافة من اليسار */
 }
 
 nav ul {
