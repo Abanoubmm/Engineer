@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر السيباكة</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+      
+        <img src="https://scontent.fcai19-4.fna.fbcdn.net/v/t39.30808-6/369309344_122103735200017723_1075412685165524698_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xnJ8-0egohgAX8Ag-zv&_nc_ht=scontent.fcai19-4.fna&oh=00_AfBY8wo7D7kQjonyZcckt1G-_-ATz4coPIO6R5gmENbhXA&oe=65FF6331" alt="صورة المعرض">
+        <h1>متجر السيباكة</h1>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">المنتجات</a></li>
+                <li><a href="#">اتصل بنا</a></li>
+                <li><a href="#" class="show-cart-button">سلة التسوق</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="products">
+            <!-- المنتجات -->
+            <div class="product">
+                <img src="product1.jpg" alt="صورة المنتج">
+                <h2>اسم المنتج</h2>
+                <p>وصف قصير للمنتج</p>
+                <span>السعر: $50</span>
+                <button>أضف إلى السلة</button>
+            </div>
+            <!-- يمكنك إضافة المزيد من المنتجات هنا -->
+          <div class="product">
+                <img src="product1.jpg" alt="صورة المنتج">
+                <h2>اسم المنتج</h2>
+                <p>وصف قصير للمنتج</p>
+                <span>السعر: $50</span>
+                <button>أضف إلى السلة</button>
+            </div>
+          <div class="product">
+                <img src="product1.jpg" alt="صورة المنتج">
+                <h2>اسم المنتج</h2>
+                <p>وصف قصير للمنتج</p>
+                <span>السعر: $50</span>
+                <button>أضف إلى السلة</button>
+            </div>
+          <div class="product">
+                <img src="product1.jpg" alt="صورة المنتج">
+                <h2>اسم المنتج</h2>
+                <p>وصف قصير للمنتج</p>
+                <span>السعر: $50</span>
+                <button>أضف إلى السلة</button>
+            </div>
+          
+        </section>
+    </main>
+    
+    <footer>
+        <p>جميع الحقوق محفوظة &copy; 2024</p>
+    </footer>
+
+    <div id="cart" class="cart">
+        <ul id="cart-items">
+            <!-- عرض عناصر السلة هنا -->
+        </ul>
+        <button onclick="checkout()">إتمام الشراء</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
